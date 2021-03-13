@@ -1,2 +1,2 @@
 # Latian-Batch-5
-Latihan belajar mencoba ngedit tulisan
+Pelatihan dasar python dari AI Indonesia biar jago
