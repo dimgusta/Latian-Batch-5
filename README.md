@@ -1,2 +1,2 @@
 # Latian-Batch-5
-Latihan belajar
+Latihan belajar mencoba ngedit tulisan
