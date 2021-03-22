@@ -7,7 +7,6 @@ awal = """----Menu----
 3. Hapus Kontak
 4. Keluar \n"""
 
-
 def tulis_data(nama, nomor) :
     value = nama + "," + nomor + ","                                 #format data dengan separator "," sebagai pemisah = nama,nomor,
 
@@ -77,6 +76,3 @@ while (True):                                               #looping program uta
     else :
         print ("Maaf Tidak Tersedia")                       #ketika salah memasukan pilihan
         print("\n")
-
-
-
