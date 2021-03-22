@@ -33,20 +33,20 @@ def tampil_data():
 
 while (True):                                               #looping program utama
     print (awal)                                            #menampilkan opsi menu
-    pilihan = int(input("Pilih Menu => "))
+    pilihan = input("Pilih Menu => ")
     
-    if (pilihan == 1) :
+    if (pilihan == "1") :
         print ("Daftar Kontak = ", len(daftar_kontak))      #menghitung jumlah data pada list daftar kontak
         tampil_data()                                       #fungsi menampilkan data
         print("\n")
 
-    elif (pilihan == 2) :
+    elif (pilihan == "2") :
         print ("Kontak Baru")
         nama = input("Nama = ")
         nomor = input("Nomor = ")
         tulis_data(nama, nomor)                             #fungsi menuliskan nama & kontak dengan parameter yang diinputkan 
         
-    elif (pilihan == 3) :
+    elif (pilihan == "3") :
         print ("Terima kasih")
         break                                               #keluar dari looping
 
