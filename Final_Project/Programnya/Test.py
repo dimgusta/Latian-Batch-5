@@ -45,7 +45,8 @@ print ("successfully sent email")
 #https://www.mailgun.com/blog/which-smtp-port-understanding-ports-25-465-587/
 
 #Cek Server Gmail :
-#https://stackabuse.com/how-to-send-emails-with-gmail-using-python/
+#https://stackabuse.com/how-to-send-emails-with-gmail-using-python/  = Contoh email penerima dengan list
+#https://gist.github.com/nickoala/569a9d191d088d82a5ef5c03c0690a02
 
 
 #Refrensi Code dan Setting Email Agar Bisa Mengirim Email dengan Python:
@@ -53,6 +54,10 @@ print ("successfully sent email")
 #https://www.hostinger.co.id/tutorial/apa-itu-ssl#:~:text=TLS%20adalah%20Transport%20Layer%20Security,antara%20website%20dan%20web%20browser.
 #https://code.tutsplus.com/id/tutorials/sending-emails-in-python-with-smtp--cms-29975
 #https://blog.mailtrap.io/sending-emails-in-python-tutorial-with-code-examples/
+#https://answer-id.com/id/53557096
+#https://www.wawanhn.com/2016/12/membuat-skrip-kirim-email-dengan-python.html
+#https://www.pythonindo.com/cara-mengirim-email-menggunakan-python/
+
 
 #metode SSL
 #https://medium.com/@veronicayolandaa/sending-emails-using-python-bahasa-aa4cc6b20a7e
