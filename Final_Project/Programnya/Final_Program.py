@@ -1,4 +1,4 @@
-import Final_modul as md
+import Final_modul as md             #modul yang dibuat dengan nama Final_modul.py harus diperhatikan juga
 # md.handling_email()                #diekstrak menjadi function handling email
 # md.list_email()                    #diekstrak menjadi function list email
 # md.add_email(masukan)              #diekstrak menjadi function add list email
