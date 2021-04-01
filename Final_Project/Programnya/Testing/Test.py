@@ -10,7 +10,7 @@ msg = MIMEMultipart()
 message = "Thank you" #pesan yang mau dikirim
  
 # setup the parameters of the message
-password = "Bismilah2021"
+password = "Bibibib"
 msg['From'] = "projectsolderku@gmail.com"
 msg['To'] = "dimgusta@gmail.com"
 msg['Subject'] = "Apa ini"

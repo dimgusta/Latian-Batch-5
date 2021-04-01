@@ -1,0 +1,6 @@
+Bambang P = 25000000
+Siswanto = 25000000
+Toni = 25000000
+Heri = 25000000
+Samid = 25000000
+Mahmudin = 25000000

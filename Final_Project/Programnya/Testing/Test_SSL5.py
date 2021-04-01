@@ -20,29 +20,6 @@ def list_kontak() :
     return daftar_email                                          #nilai return sudah dalam bentuk list
 receiver_email = list_kontak()                                   #email penerima bisa menggunakan list / string tapi beda cara aksesnya
 
-def tambah_lampiran() :
-    storage = "D:/Github/Latian-Batch-5/Final_Project/Programnya/Lampiran/" #file direktori menyesuaikan dengan lampiran yang mau dikirim
-    directory = os.listdir(storage)                                         #menampilkan isi direktori
-    print ("Isi Lampiran : ")
-    for lampiran in directory :
-        print("- ", lampiran)
-
-    try:   
-        filename = input("Lampirkan : ")
-        attachment = open(storage + filename, "rb")
-        
-        part = MIMEBase('application', 'octet-stream')
-        part.set_payload((attachment).read())
-        encoders.encode_base64(part)
-        part.add_header('Content-Disposition', "attachment; filename= %s" % filename)
-
-        msg.attach(part)
-        print("File berhasil ditambahkan")
-    except:
-        print("File tidak ditemukan ", sys.exc_info()[0])
-
-    time.sleep(2)
-    os.system('cls')
 
 
 def handling_email() :
@@ -63,7 +40,25 @@ def handling_email() :
 
     perlu = input("Menambahkan Lampiran (Y/N) ?")
     if (perlu =="Y") or (perlu =="y"):                             #jika menekan y atau Y
-        tambah_lampiran()
+        storage = "D:/Github/Latian-Batch-5/Final_Project/Programnya/Lampiran/" #file direktori menyesuaikan dengan lampiran yang mau dikirim
+        directory = os.listdir(storage)                                         #menampilkan isi direktori
+        print ("Isi Lampiran : ")
+        for lampiran in directory :
+            print("- ", lampiran)
+
+        try:   
+            filename = input("Lampirkan : ")
+            attachment = open(storage + filename, "rb")
+            
+            part = MIMEBase('application', 'octet-stream')
+            part.set_payload((attachment).read())
+            encoders.encode_base64(part)
+            part.add_header('Content-Disposition', "attachment; filename= %s" % filename)
+
+            msg.attach(part)
+            print("File berhasil ditambahkan")
+        except:
+            print("File tidak ditemukan ", sys.exc_info()[0])
 
     time.sleep(2)
     os.system('cls')
@@ -80,3 +75,4 @@ def handling_email() :
         print ("E-mail Gagal")
 
 handling_email() #diekstrak menjadi fungtion untuk pengolahan lain
+#list_kontak()

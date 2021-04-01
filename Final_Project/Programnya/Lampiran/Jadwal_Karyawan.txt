@@ -1,0 +1,6 @@
+Bambang P = Senin
+Siswanto = Selasa
+Toni = Rabu
+Heri = Kamis
+Samid = Jumat
+Mahmudin = Sabtu
