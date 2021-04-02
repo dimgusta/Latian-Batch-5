@@ -23,9 +23,12 @@ while (True):                                               #looping program uta
         
     elif (pilihan == "2") :
         print ("List E-mail")
-        for daftar in md.list_email():
-            print (daftar)
-        print ("\n")
+        try:
+            for daftar in md.list_email():
+                print (daftar)
+            print ("\n")
+        except :
+            print ("Belum Ada List")
 
     elif (pilihan == "3") :
         print ("Tambah E-mail")

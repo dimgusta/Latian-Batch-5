@@ -3,3 +3,8 @@
 2021/04/01 12:31:19 | Mencoba | E-mail Terkirim
 User menghapus data ! 
 2021/04/01 12:41:25 | Latihan | E-mail Terkirim
+2021/04/03 00:23:31 | User menghapus data !
+2021/04/03 00:32:13 | User menghapus data !
+2021/04/03 00:38:57 | User menghapus data !
+2021/04/03 00:40:48 | Testing Kedua | E-mail Terkirim
+2021/04/03 00:41:30 | Coba Salah Password | E-mail Gagal
